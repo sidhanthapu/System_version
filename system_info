@@ -1,0 +1,15 @@
+import platform
+print(platform.machine())
+print(platform.version())
+print(platform.platform())
+print(platform.uname())
+print(platform.system())
+print(platform.processor())
+print(platform.architecture())
+print(platform._node())
+
+#For memory and disk usage
+import psutil
+print(psutil.cpu_percent())
+print(psutil.virtual_memory())
+print(psutil.disk_usage())
